@@ -4,10 +4,8 @@ public class CarTester {
 
 	public static void main(String[] args) {
 		Car c1 = new Car("Toyota",1800,"Altis","Sedan");
-		c1.cc = 1800;
-		c1.brand = "TOYOTA";
-		c1.name = "Altis";
-		
+		Car c2 = new Car("Honda",2000,"Accord","Sedan");
+		Car c3 = new Car("Toyota",2000,"wish","Sedan");
 
 	}
 
