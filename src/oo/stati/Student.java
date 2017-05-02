@@ -10,15 +10,24 @@ public class Student {
 		System.out.println("english");
 		System.out.println("pass");
 	}
-	public student(){
+	public Student(){
 		
 	}
-	public student(int english,int math,int chinese){
+	public Student(int english,int math,int chinese){
+		super();
 		this.english = english;
 		this.math = math;
 		this.chinese = chinese;
-		
-		
+	}
+	public void print(){
+		System.out.println(getscore(english)+"\t"+getscore(math)+"\t"+getscore(chinese));
 		
 	}
-}
+	private String getscore(int score){
+		if (score<pass){
+			return String.valueOf(score)+"*";
+		}else{
+				return String.valueOf(score);
+			}
+		}
+	}
