@@ -10,7 +10,7 @@ public class Car {
 	    float milage;
 	    
 	    public Car(String brand,String name){
-	    	this.brand;
+	    	this.brand = brand;
 	    	
 	    }
 	    
