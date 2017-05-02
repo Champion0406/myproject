@@ -14,6 +14,11 @@ public class Student {
 		
 	}
 	public student(int english,int math,int chinese){
+		this.english = english;
+		this.math = math;
+		this.chinese = chinese;
+		
+		
 		
 	}
 }
