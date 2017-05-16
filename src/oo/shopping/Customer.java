@@ -1,21 +1,16 @@
 package oo.shopping;
 
 public class Customer {
-	int price;
-	float discount = 0.1f;
-	float back = 0.05f;
-
+	int amount;
 	public Customer() {
 
 	}
 
-	public Customer(int price, int discount, int back) {
-		super();
-		this.price = price;
-		this.discount = discount;
-		this.back = back;
+	public Customer(int amount) {
+		this.amount = amount;
+		
 	}
 		public void print(){
-			System.out.println(price+"\t"+discount+"\t"+back);
+			System.out.println(amount+"\t"+amount+"\t0");
 		}
 	}
