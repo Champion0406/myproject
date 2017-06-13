@@ -22,6 +22,7 @@ public class PhoneMember extends Member {
 	public boolean isVarified() {
 		return varified;
 	}
+	
 
 	public void setVarified(boolean varified) {
 		this.varified = varified;
